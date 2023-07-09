@@ -1,30 +1,38 @@
 {
   "expo": {
     "name": "Nativeapp",
-    "slug": "Nativeapp",
+    "slug": "imagpicker",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
+    "userInterfaceStyle": "automatic",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#25292e"
     },
     "assetBundlePatterns": [
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.devcoder980.imagpicker"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
+        "backgroundColor": "#FEF9B0"
+      },
+      "package": "com.devcoder980.imagpicker"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "9799c5d6-3fdb-4935-b94e-f7c3b08e6b40"
+      }
+    },
+    "owner": "devcoder980"
   }
 }
